@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Samim FD';
+}
+
+.container {
+    min-width: 70%;
+    background-color: #fff;
+    min-height: 500px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding: 10px;
+    border-radius: 2px;
+    border: solid 1px #e0e0e0;
+    box-shadow: 1px 4px 5px #cfcccc;
+}
+
+.box-1 {
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.box-2 {
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+hr {
+    /* width: 90%; */
+    color: #e0e0e0;
+}
+
+.hr {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    font-family: 'Samim FD';
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #9e9e9e;
+    outline: none;
+}
+
+button {
+    border: none;
+    font-family: 'Samim FD';
+    padding: 10px;
+    width: 85px;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    border-radius: 2px;
+    transition: all .25s;
+}
+
+button:hover {
+    background-color: #67c0b7;
+    box-shadow: 0 0 4px #26a69a;
+}
+
+li {
+    list-style: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-family: 'Samim FD';
+    border-bottom: solid .1px #cfcccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+#ul {
+    list-style-type: none;
+    list-style: none;
+    border: solid 1px #cfcccc;
+    padding: 0;
+    border-radius: 1px;
+    box-shadow: 0px 3px 5px #cfcccc;
+}
+
+h1 {
+    color: rgba(0,0,0,0.87);
+    font-weight: 300;
+}
+
+.delete-item {
+    float: left;
+    font-weight: 600;
+    color: rgb(255, 72, 0);
+    background-color: transparent !important;
+    padding: 0;
+    width: 10px;
+    transition: all .05s;
+    margin-left: 15px;
+    cursor: pointer;
+    user-select: none !important;
+}
+
+.delete-item:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+    color: rgb(255, 120, 66);
+}
+
+.clear-button {
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.clear-button>button {
+    margin-top: 10px;
+    width: 105px;
+    background-color: black;
+}
+
+.clear-button>button:hover {
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0 4px black;
+}
+
+h2 {
+    /* color: rgba(0,0,0,0.87); */
+    font-weight: 300;
+}
+
+.deleted {
+    display: none;
+}
+
+.done-item {
+    color: #b0e0dc;
+    float: left;
+    background-color: transparent !important;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: all .05s;
+    user-select: none !important;
+}
+
+.done-item:hover {
+    transform: scale(1.1);
+}
+
+.done {
+    color: #20b382;
+}

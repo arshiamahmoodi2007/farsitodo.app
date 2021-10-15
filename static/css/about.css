@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Samim FD';
+}
+
+.container {
+    min-width: 60%;
+    background-color: #fff;
+    min-height: 300px;
+    text-align: center;
+    margin: auto 0;
+    padding: 10px;
+    border-radius: 2px;
+    border: solid 1px #e0e0e0;
+    box-shadow: 1px 4px 5px #cfcccc;
+    padding-bottom: 50px;
+}
+
+.info {
+    text-align: right !important;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.my-info {
+    margin-top: 30px;
+    text-align: right !important;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+span {
+    font-weight: 600;
+}
+
+.box-info {
+    margin-top: 20px;
+}
